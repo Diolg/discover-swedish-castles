@@ -47,7 +47,11 @@ Back to <a href="index.html">home page</a></p>
 let responseDiv = document.getElementById("success-response");   
 responseDiv.innerHTML = successHtml;  
 responseDiv.style.display = "block";  
-responseDiv.style.color = "white";  
+responseDiv.style.color = "white"; 
+
+// Hide the success window after submission
+
+setTimeout(() => responseDiv.hidden = true, 2000)
 
 } 
 
