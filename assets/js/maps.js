@@ -57,8 +57,21 @@ if(properties.image)
  marker.setIcon(properties.image)
 }
 
+// Set infoWindiws
+
+if(properties.info)
+{
+var  InfoWindow = new google.maps.InfoWindow({
+content: properties.info
+});
+
+// Added click listener to markers
+
+marker.addListener('click', function(){
+InfoWindow.open(myMap, marker);
+})
 
 
 }
 }
-
+}
