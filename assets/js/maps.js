@@ -57,19 +57,8 @@ if(properties.image)
  marker.setIcon(properties.image)
 }
 
-// Set infoWindiws
-
-if(properties.info)
-{
-var  InfoWindow = new google.maps.InfoWindow({
-content: properties.info
-});
-
-marker.addListener('click', function(){
-InfoWindow.open(myMap, marker);
-})
 
 
 }
 }
-}
+
