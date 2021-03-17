@@ -1,3 +1,35 @@
+//Set the EmailJS
+    
+  (function() {
+    emailjs.init("user_ugvGbZOApBxJa8Ka2h7Vk");
+})();
+
+//Retrieve the data from form inputs
+function sendMail(contactForm) {
+    $('#contact-button').prop('disabled', true)
+    emailjs.send("service_jgqb1x9","contact_form", 
+    {
+        'message': contactForm.message.value,
+        'user_name': contactForm.name.value,
+        'user_email': contactForm.email.value,
+        
+    })
+
+// Set function for success or error response
+    .then(
+        function(response) {
+            console.log('SUCCESS', response)
+            alert('YOUR MESSAGE SENT SUCCESSFULY')
+            $('#contact-button').prop('disabled', false)
+        },
+        function(error) {
+            console.log('FAILED', error)
+            $('#contact-button').prop('disabled', false)
+        });
+        return false;
+};
+    
+
 //Function to show the user the message has been submitted successfully
 let contactForm = document.getElementById("contact-form");
 contactForm.addEventListener("submit", handleSubmit);
