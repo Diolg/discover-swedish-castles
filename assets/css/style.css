@@ -28,3 +28,109 @@ body {
     color: rgb(194, 4, 4)
 }
 
+/*--Home page--*/
+
+#header{
+    background-image: url(../images/castle-park.jpg);
+    background: linear-gradient(rgba(87, 83, 83, 0.8), rgba(42, 43, 44, 0.301)), url(../images/castle-park.jpg);
+    filter: contrast(180%);
+    background-size: cover;
+    padding: 120px 0;
+    text-align: center;
+    max-width: 100%;
+    background-size: cover; 
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+#about {
+     overflow: hidden;
+}
+
+.section-image {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.section-image img {
+    height: 100%;
+    width: 100%;
+}
+
+#why-image {
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+.three-castles a {
+    font-weight: 900;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.three-castles a:hover {
+    color: rgb(138, 128, 128)
+}
+.home-title {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 90px;
+    
+}
+
+.home-text {
+    color: #fff;
+    text-align: center;    
+}
+
+.top-3  {
+    margin-top: 10px;
+}
+
+.header-home {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.section-text {
+    margin-top:15%;
+}
+
+
+.curious {
+   margin-top: 50px;
+   margin-bottom: 25px;
+}
+
+.highlight {
+    color:rgb(194, 4, 4);
+    font-weight: 600;
+}
+
+.action {
+    text-align: center;
+}
+
+.press {
+    color: black;
+}
+
+.btn-lg {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: rgb(194, 4, 4);
+
+   
+}
+
+.btn-lg:hover{
+    background-color: rgb(138, 128, 128);
+}
+
