@@ -251,3 +251,22 @@ width: 90%;
     color: #fff;
 }
 
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+    margin-top:5px;
+    background-color: rgb(194, 4, 4);
+    
+}
+ 
+button[type="submit"]:hover {
+background-color: rgb(138, 128, 128);
+}
+
