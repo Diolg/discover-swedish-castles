@@ -18,3 +18,11 @@ responseDiv.style.display = "block";
 responseDiv.style.color = "white";  
 
 } 
+
+// Cleans the form's inputs after submission
+
+let form = document.getElementById("contact-form");
+form.addEventListener("submit", function handleSubmit (event) {
+    event.preventDefault()
+    contactForm.reset()
+})
