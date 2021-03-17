@@ -17,6 +17,17 @@ body {
 
 }
 
+body.map-background
+
+{
+background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(../images/sweden-castle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode: luminosity; 
+
+}
+
 
 
 
@@ -27,8 +38,6 @@ body {
 .nav-choice {
     color: rgb(194, 4, 4)
 }
-
-/*--Home page--*/
 
 #header{
     background-image: url(../images/castle-park.jpg);
@@ -134,3 +143,47 @@ body {
     background-color: rgb(138, 128, 128);
 }
 
+/*--Map and castles description--*/
+
+#castles {
+    padding: 30px 0px;
+}
+
+.title-map {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;  
+}
+
+.card-text {
+    font-size: small;
+}
+
+.description h1, p{
+    text-align: center;
+    
+}
+
+
+.cards-body {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.5);
+   
+     
+}
+
+
+
+.cards-body a {
+    color: rgb(34, 31, 31);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.cards-body a:hover {
+    color: rgb(194, 4, 4);
+    text-decoration: none;
+
+}
