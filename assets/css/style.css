@@ -4,8 +4,13 @@
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
 
+
     
 }
+
+/*img {
+    filter: 
+}*/
 
 h1,h2,h3 {
     font-family: "Lato", sans-serif;
@@ -324,7 +329,7 @@ footer {
 
 
 footer i {
-    color: rgb(194, 4, 4);
+    color:rgb(194, 4, 4);
     
     
 }
