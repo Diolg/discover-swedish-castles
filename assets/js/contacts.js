@@ -1,6 +1,6 @@
 //Set the EmailJS
     
-  (function() {
+  /*(function() {
     emailjs.init("user_ugvGbZOApBxJa8Ka2h7Vk");
 })();
 
@@ -27,7 +27,7 @@ function sendMail(contactForm) {
             $('#contact-button').prop('disabled', false)
         });
         return false;
-};
+};*/
     
 
 //Function to show the user the message has been submitted successfully
@@ -51,14 +51,14 @@ responseDiv.style.color = "white";
 
 // Hide the success window after submission
 
-setTimeout(() => responseDiv.hidden = true, 2000)
+setTimeout(() => responseDiv.hidden = true, 5000)
 
 } 
 
 // Cleans the form's inputs after submission
 
-/*let form = document.getElementById("contact-form");
+let form = document.getElementById("contact-form");
 form.addEventListener("submit", function handleSubmit (event) {
     event.preventDefault()
     contactForm.reset()
-})*/
+})
