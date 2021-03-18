@@ -46,7 +46,15 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 /*--Navigation menu--*/
 
 .nav-choice {
-    color: rgb(194, 4, 4)
+    color: rgb(194, 4, 4);
+}
+
+.home-link {
+    color: rgb(194, 4, 4)!important;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;    
 }
 
 #header{
@@ -240,7 +248,7 @@ width: 90%;
     background-color: rgb(109, 105, 105);
     opacity: 70%;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-bottom: 50px;
     
 
 }
@@ -303,7 +311,11 @@ background-color: rgb(138, 128, 128);
 /*--Footer--*/
 
 footer {
-    margin-top: 150px;
+    /*margin-top: 150px;*/
+    height: auto;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
     background-color: #f2f5f7;
 }
 
