@@ -51,7 +51,7 @@ responseDiv.style.color = "white";
 
 // Hide the success window after submission
 
-setTimeout(() => responseDiv.hidden = true, 5000)
+setTimeout(() => responseDiv.hidden = true, 6000)
 
 } 
 
