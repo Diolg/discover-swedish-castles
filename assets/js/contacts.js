@@ -57,8 +57,8 @@ setTimeout(() => responseDiv.hidden = true, 2000)
 
 // Cleans the form's inputs after submission
 
-let form = document.getElementById("contact-form");
+/*let form = document.getElementById("contact-form");
 form.addEventListener("submit", function handleSubmit (event) {
     event.preventDefault()
     contactForm.reset()
-})
+})*/
