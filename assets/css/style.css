@@ -133,6 +133,7 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 
 .section-text {
     margin-top:15%;
+    text-align: center;
 }
 
 
@@ -198,6 +199,7 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 .info-window-image {
     width: 400px;
     height: 200px;
+    object-fit: cover;
 
 }
 
@@ -250,13 +252,15 @@ font-size: 50px;
 }
 
 .form-title h1 {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 
-.form-title h3 {
-    margin-top: -20px;
+.form-subtitle {
+    text-align: center;
     color: rgb(194, 4, 4);
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 
 #form-size {
@@ -358,3 +362,34 @@ footer i:hover {
 }
 
 /*----Media queries---------*/
+@media(max-width:600px) {
+.info-window img {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #f2f5f7;
+}
+}
+
+
+@media(max-width:600px) {
+#header-home-why {
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+}
+
+@media(max-width:600px) {
+.home-title {
+    margin-top: 10px;
+    margin-top: 0px;
+  
+}
+}
+
+@media(max-width:600px) {
+.contacts-subtitle {
+    margin-top: -10px;
+  
+}
+}
