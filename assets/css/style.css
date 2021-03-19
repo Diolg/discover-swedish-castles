@@ -182,11 +182,30 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
     color:rgb(194, 4, 4);
 }
 
-.card-text {
+.info-window {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: #f2f5f7;
+}
+
+.info-window a {
+    text-decoration: none;
+    color: rgb(194, 4, 4);
+    font-weight: 600;
+}
+
+.info-window-image {
+    width: 400px;
+    height: 200px;
+
+}
+
+/*.card-text {
     font-size: small;
 }
 
-/*.description h1, p{
+.description h1, p{
     text-align: center;
     
 }
