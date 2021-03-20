@@ -2,10 +2,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "Raleway", sans-serif;
-    box-sizing: border-box;
-
-
     
+}
+
+html, body {
+    height: 100%;
 }
 
 
@@ -23,7 +24,7 @@ body {
 
 }
 
-body.contacts
+body.contacts, body.map-background
 
 {
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(../images/sweden-castle.jpg);
@@ -33,17 +34,13 @@ body.contacts
     background-blend-mode: luminosity; 
 }
 
-body.map-background
 
+body.map-background, body.contacts 
 {
-background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(../images/sweden-castle.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-blend-mode: luminosity; 
-
+    display: flex;
+    flex-direction: column;
+    
 }
-
 
 
 
@@ -170,6 +167,11 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 
 /*--Map and castles description--*/
 
+.container-map {
+    flex-grow: 1;
+    text-align: center;
+}
+
 
 .title-map {
     
@@ -187,6 +189,7 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
     margin-bottom: 1rem;
     font-size: 25px;
 }
+
 
 .info-window {
     width: 400px;
@@ -214,14 +217,19 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
     width: 100%;
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.5);
     margin: 0 auto;
-    
-    
+      
 }
 
-#map-size {
+.container-map, .title-map, .footer {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+/*#map-size {
     padding: 200px;
    
-}
+}*/
 
 /*--Contact from--*/
 
@@ -325,24 +333,20 @@ background-color: rgb(138, 128, 128);
 
 /*--Footer--*/
 
-footer {
+.footer {
    
-    padding: 2%;
-    margin-top: 10px;
-    padding-bottom: 2%;
     background-color: #f2f5f7;
-    
+ 
 }
-    
 
 
-footer i {
+
+.footer i {
     color:rgb(194, 4, 4);
-    
-    
+       
 }
 
-footer i:hover {
+.footer i:hover {
     color: rgb(138, 128, 128);
 }
 
