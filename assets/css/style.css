@@ -8,13 +8,14 @@
     
 }
 
-/*img {
-    filter: 
-}*/
 
 h1,h2,h3 {
     font-family: "Lato", sans-serif;
     font-weight: 800;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 body {
@@ -169,18 +170,22 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 
 /*--Map and castles description--*/
 
-#castles {
-    padding: 30px 0px;
-}
 
 .title-map {
-    margin-top: 70px;
+    
     margin-bottom: 30px;
     text-align: center;  
 }
 
+.title-map h1 {
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
 .title-map p {
     color:rgb(194, 4, 4);
+    margin-bottom: 1rem;
+    font-size: 25px;
 }
 
 .info-window {
@@ -203,44 +208,19 @@ background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(.
 
 }
 
-/*.card-text {
-    font-size: small;
-}
-
-.description h1, p{
-    text-align: center;
-    
-}
-
-
-.cards-body {
-    box-shadow: 0 0 20px 7px rgba(0,0,0,0.5);
-   
-     
-}
-
-.cards-body a {
-    color: rgb(34, 31, 31);
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: 10px;
-    font-size: small;
-    font-weight: 600;
-}
-
-.cards-body a:hover {
-    color: rgb(194, 4, 4);
-    text-decoration: none;
-
-}*/
 
 #map {
     height: 600px;
     width: 100%;
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.5);
-    margin-bottom: 30px;
     margin: 0 auto;
+    
+    
+}
 
+#map-size {
+    padding: 200px;
+   
 }
 
 /*--Contact from--*/
@@ -260,13 +240,18 @@ font-size: 50px;
 .form-subtitle {
     text-align: center;
     color: rgb(194, 4, 4);
-    margin-top: -50px;
-    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+.contacts-subtitle h3 {
+    margin-top: 10px;
 }
 
 #form-size {
  
 width: 90%;
+margin-bottom: 300px;
 }
 
 .window {
@@ -277,7 +262,7 @@ width: 90%;
     background-color: rgb(109, 105, 105);
     opacity: 70%;
     border-radius: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     height: 500px;
     
 
@@ -342,14 +327,13 @@ background-color: rgb(138, 128, 128);
 
 footer {
    
-    margin-top: 100px;
-    height: auto;
-    margin-bottom: 0px; 
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 2%;
+    margin-top: 10px;
+    padding-bottom: 2%;
     background-color: #f2f5f7;
     
 }
+    
 
 
 footer i {
@@ -362,8 +346,8 @@ footer i:hover {
     color: rgb(138, 128, 128);
 }
 
-/*----Media queries---------*/
-@media(max-width:600px) {
+/*----Media queries for small devices---------*/
+/*@media(max-width:600px) {
 .info-window img {
     width: 200px;
     height: 50px;
@@ -394,3 +378,25 @@ footer i:hover {
   
 }
 }
+
+/*--Media queries for large devices--*/
+/*@media (min-width: 1024px) {
+#map {
+    height: 700px;
+    width: 900px;
+    
+}
+}*/
+
+/*@media (min-width: 1024px) {
+#map-size {
+    margin-bottom: 400px;
+  
+}
+}
+
+@media (min-width: 1024px) {
+#form-size {
+margin-bottom: 300px;
+}
+}*/
