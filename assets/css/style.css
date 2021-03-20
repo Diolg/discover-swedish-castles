@@ -9,6 +9,30 @@ html, body {
     height: 100%;
 }
 
+/*-----Trying-----*/
+
+html, body.contacts {
+    
+    height: 100%;
+    
+}
+
+body.contacts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#form-size {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
 
 h1,h2,h3 {
     font-family: "Lato", sans-serif;
@@ -35,12 +59,14 @@ body.contacts, body.map-background
 }
 
 
-body.map-background, body.contacts 
+body.map-background
 {
     display: flex;
     flex-direction: column;
     
 }
+
+
 
 
 
@@ -172,6 +198,11 @@ body.map-background, body.contacts
     text-align: center;
 }
 
+.window {
+    flex-grow: 1;
+    text-align: center;
+}
+
 
 .title-map {
     
@@ -226,23 +257,14 @@ body.map-background, body.contacts
     width: 100%;
 }
 
-/*#map-size {
-    padding: 200px;
-   
-}*/
 
 /*--Contact from--*/
 
 
-#form-size, .form-title .footer {
+ .container-fluid, .form-title .footer{
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
-}
-
-#form-size {
-    flex-grow: 1;
-    text-align: center;
 }
 
 .form-title {
@@ -252,12 +274,15 @@ font-size: 50px;
     
 }
 
-.form-title h1 {
-    margin-bottom: 0px;
+.form-title p {
+    font-size: 30px;
+    color: rgb(194, 4, 4);
+    margin-top: 50px;
 }
 
 
-.form-subtitle {
+
+/*.form-subtitle {
     text-align: center;
     color: rgb(194, 4, 4);
     margin-top: -20px;
@@ -268,13 +293,16 @@ font-size: 50px;
     margin-top: 10px;
 }
 
-#form-size {
+/*#form-size {
 
-    height: 600px;
+    
+    flex-grow: 1;
+    text-align: center;
     width: 100%;
     margin: 0 auto;
-}
-      
+} */
+
+ 
 
 .window {
     width: 100%;
@@ -349,12 +377,13 @@ background-color: rgb(138, 128, 128);
 
 .footer {
    
-    background-color: #f2f5f7;
-    height: 6.2 rem;
-    margin-top: 2 rem;
+  
+    text-align: center;
+    padding: 20px;
+    flex-grow: 0;
+    
  
 }
-
 
 
 .footer i {
@@ -367,14 +396,14 @@ background-color: rgb(138, 128, 128);
 }
 
 /*----Media queries for small devices---------*/
-@media(max-width:600px) {
+/*@media(max-width:600px) {
 .info-window img {
     width: 200px;
     height: 50px;
     text-align: center;
     background-color: #f2f5f7;
 }
-}
+}*/
 
 
 @media(max-width:600px) {
