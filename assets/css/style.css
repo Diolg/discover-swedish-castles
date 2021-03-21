@@ -373,6 +373,21 @@ background-color: rgb(138, 128, 128);
     
 }
 
+#error-response {
+    
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(194, 4, 4);
+    text-align: center;
+    font-size: 14px;
+    display: none;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+
+
 /*--Footer--*/
 
 .footer {
