@@ -1,6 +1,6 @@
 //Set the EmailJS
     
- /*(function() {
+ (function() {
     emailjs.init("user_ugvGbZOApBxJa8Ka2h7Vk");
 })();
 
@@ -35,7 +35,7 @@ function sendMail(contactForm) {
 document.getElementById('contact-form').reset();
 
 return false;
-} */
+} 
 
 
     
