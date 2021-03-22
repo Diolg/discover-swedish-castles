@@ -401,15 +401,6 @@ background-color: rgb(138, 128, 128);
 }
 
 /*----Media queries for small devices---------*/
-/*@media(max-width:600px) {
-.info-window img {
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    background-color: #f2f5f7;
-}
-}*/
-
 
 @media(max-width:600px) {
 #header-home-why {
@@ -430,6 +421,26 @@ background-color: rgb(138, 128, 128);
 .contacts-subtitle {
     margin-top: -10px;
   
+}
+}
+
+@media(max-width:600px) {
+.info-window {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    font-size: small;
+    background-color: #f2f5f7;
+}
+}
+
+@media(max-width:600px) {
+
+.info-window-image {
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+
 }
 }
 
