@@ -9,7 +9,6 @@ html, body {
     height: 100%;
 }
 
-/*-----Trying-----*/
 
 html, body.contacts {
     
@@ -26,12 +25,6 @@ body.contacts {
 #form-size {
     flex-grow: 1;
 }
-
-
-
-
-
-
 
 
 h1,h2,h3 {
@@ -65,9 +58,6 @@ body.map-background
     flex-direction: column;
     
 }
-
-
-
 
 
 /*--Home page--*/

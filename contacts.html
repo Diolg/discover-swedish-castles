@@ -13,13 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body class="contacts">
-
-    <!--Navbar menu-->
-
     <!--Navbar menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><strong>My<span class="nav-choice">Choice</span></strong></a>
@@ -45,23 +41,26 @@
     <!--Header with call to action to submit a message-->
 
     <div class="container-fluid container-form" id="form-size">
-           <div class="row form-title">
-               <div class="col-12">
+        <div class="row form-title">
+            <div class="col-12">
                 <h1>You are very welcome to message me!</h1>
                 <p><em><strong>Share your experience, tips or ask me a question.</strong></em></p>
-               </div>
-          </div>
+            </div>
+        </div>
 
         <!--Contact form-->
 
         <div class="container window">
             <div class="col-12" id="success-response">
-                <p>Hi! Your message has been sent successfully! 
-                    <br> I will respond in 2 hours! <br> 
-            Back to <a href="index.html">home page</a></p></div>
-            <div class="col-12" id="error-response"><p>Sorry, something went wrong...</p></div>
+                <p>Hi! Your message has been sent successfully!
+                    <br> I will respond in 2 hours! <br>
+                    Back to <a href="index.html">home page</a></p>
+            </div>
+            <div class="col-12" id="error-response">
+                <p>Sorry, something went wrong...</p>
+            </div>
 
-        
+
             <form id="contact-form" onsubmit="return sendMail(this);">
 
                 <div class="form-group">
@@ -83,9 +82,7 @@
 
             </form>
         </div>
-      </div>
-
-    
+    </div>
 
     <!--Footer with copyright and social meda-->
     <footer class="footer">
@@ -114,7 +111,7 @@
         </div>
     </footer>
 
-    
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -126,4 +123,5 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="assets/js/contacts.js"></script>
 </body>
+
 </html>
