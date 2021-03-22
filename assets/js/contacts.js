@@ -22,16 +22,16 @@ function sendMail(contactForm) {
     .then(
         function(response) {
 
-            console.log('SUCCESS', response) 
+            console.log('SUCCESS', response);
             
             document.getElementById("success-response").style.display="block";
 
 //Set Time out for user to manage to read the success-message
-    setTimeout(() => document.getElementById("success-response").hidden = true, 6000)
+    setTimeout(() => document.getElementById("success-response").hidden = true, 6000);
 
     },
         function(error) {
-            console.log('FAILED', error)
+            console.log('FAILED', error);
             document.getElementById("error-response").style.display="block";
                
 });
