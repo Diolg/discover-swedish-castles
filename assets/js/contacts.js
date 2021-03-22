@@ -1,13 +1,11 @@
 //Set the EmailJS
     
- (function() {
+ /*(function() {
     emailjs.init("user_ugvGbZOApBxJa8Ka2h7Vk");
 })();
 
 //Retrieve the data from form inputs
 function sendMail(contactForm) {
-    /*$('#contact-button').prop('disabled', true)*/
-
 
     emailjs.send("service_jgqb1x9","contact_form", 
     {
@@ -16,15 +14,12 @@ function sendMail(contactForm) {
         'user_email': contactForm.email.value,
         
     })
-
     
 // Set function for success or error response
     .then(
         function(response) {
-
             console.log('SUCCESS', response);
-            
-            document.getElementById("success-response").style.display="block";
+                       document.getElementById("success-response").style.display="block";
 
 //Set Time out for user to manage to read the success-message
     setTimeout(() => document.getElementById("success-response").hidden = true, 6000);
@@ -32,8 +27,7 @@ function sendMail(contactForm) {
     },
         function(error) {
             console.log('FAILED', error);
-            document.getElementById("error-response").style.display="block";
-               
+           document.getElementById("error-response").style.display="block";              
 });
 
 //Cleaning the form
@@ -41,7 +35,7 @@ function sendMail(contactForm) {
 document.getElementById('contact-form').reset();
 
 return false;
-} 
+} */
 
 
     
@@ -92,20 +86,18 @@ function checkForm(el) {
 
   let fail = "";   
 
-  if(name == "" || message == "" )
-     fail = "Please, fill in all inputs!";
-     else if(name.length <= 1 || name.length > 50)
-     fail = "Please, enter correct name";
-     else if(message.length > 5)
-     fail = "Please, use no more than 200 characters!"
+  If(name.length <= 1 || name.length > 50)
+    fail = "Please, enter correct name";
+    else if(message.length > 5)
+    fail = "Please, use no more than 200 characters!"
 
      if(fail !="") {
-         document.getElementById("error-response").innerHTML = fail;
+         alert("fail");
 
          return false;
-     }
+     }*/
 
-}*/
+
 
 
 /*let form = document.getElementById("contact-form");
@@ -124,4 +116,7 @@ function validation() {
   }
 
 }*/
+
+
+
 
