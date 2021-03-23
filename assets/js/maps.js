@@ -79,7 +79,7 @@ function initMap() {
 
             // Added click listener to markers
 
-            marker.addListener('click', function() {
+            marker.addListener("click", function() {
                 InfoWindow.open(myMap, marker);
             });
 
