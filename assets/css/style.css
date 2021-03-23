@@ -1,31 +1,24 @@
+
+/*-------Rewrite browser basic settings-----*/
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Raleway", sans-serif;
-    
+    font-family: "Raleway", sans-serif;    
 }
 
 html, body {
     height: 100%;
 }
 
-
 html, body.contacts {
     
-    height: 100%;
-    
+    height: 100%;  
 }
 
 body.contacts {
     display: flex;
     flex-direction: column;
-
 }
-
-#form-size {
-    flex-grow: 1;
-}
-
 
 h1,h2,h3 {
     font-family: "Lato", sans-serif;
@@ -38,12 +31,9 @@ h1 {
 
 body {
     background-color: #f2f5f7;
-
 }
 
-body.contacts, body.map-background
-
-{
+body.contacts, body.map-background {
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url(../images/sweden-castle.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -51,19 +41,12 @@ body.contacts, body.map-background
     background-blend-mode: luminosity; 
 }
 
-
-body.map-background
-{
+body.map-background {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
-
-/*--Home page--*/
-
-/*--Navigation menu--*/
-
+/*-------Navigation menu-------*/
 .nav-choice {
     color: rgb(194, 4, 4);
 }
@@ -76,6 +59,7 @@ body.map-background
     color: #fff;    
 }
 
+/*-------Home page----------------------*/
 #header{
     background-image: url(../images/castle-park.jpg);
     background: linear-gradient(rgba(65, 63, 63, 0.8), rgba(49, 49, 51, 0.301)), url(../images/castle-park.jpg);
@@ -87,9 +71,7 @@ body.map-background
     background-size: cover; 
     height: 700px;
     background-repeat: no-repeat;
-    background-position: center center;
-    
-   
+    background-position: center center;   
 }
 
 #about {
@@ -98,8 +80,7 @@ body.map-background
 
 .section-image {
     width: 100%;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .section-image img {
@@ -122,12 +103,12 @@ body.map-background
 .three-castles a:hover {
     color: rgb(138, 128, 128)
 }
+
 .home-title {
     color: #fff;
     text-align: center;
     padding: 50px 0px;
-    margin-top: 90px;
-    
+    margin-top: 90px;    
 }
 
 .home-text {
@@ -145,12 +126,10 @@ body.map-background
     margin-bottom: 40px;
 }
 
-
 .section-text {
     margin-top:15%;
     text-align: center;
 }
-
 
 .curious {
    margin-top: 50px;
@@ -170,19 +149,18 @@ body.map-background
     color: black;
 }
 
+/*--------Call to action button on home page---------*/
 .btn-lg {
     margin-top: 30px;
     margin-bottom: 40px;
-    background-color: rgb(194, 4, 4);
-
-   
+    background-color: rgb(194, 4, 4);  
 }
 
-.btn-lg:hover{
+.btn-lg:hover {
     background-color: rgb(138, 128, 128);
 }
 
-/*--Map and castles description--*/
+/*-------Google map and infowindows with castles description--------*/
 
 .container-map {
     flex-grow: 1;
@@ -193,7 +171,6 @@ body.map-background
     flex-grow: 1;
    
 }
-
 
 .title-map {
     
@@ -212,7 +189,6 @@ body.map-background
     font-size: 25px;
 }
 
-
 .info-window {
     width: 400px;
     height: 300px;
@@ -230,9 +206,7 @@ body.map-background
     width: 400px;
     height: 200px;
     object-fit: cover;
-
 }
-
 
 #map {
     height: 600px;
@@ -248,21 +222,21 @@ body.map-background
     width: 100%;
 }
 
-
-/*--Contact from--*/
-
-
- .container-fluid, .form-title .footer{
+/*-------Contact form----------------*/
+.container-fluid, .form-title .footer{
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
 }
 
+#form-size {
+    flex-grow: 1;
+}
+
 .form-title {
-text-align: center;
-padding: 100px 0px;
-font-size: 50px;
-    
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 50px;    
 }
 
 .form-title p {
@@ -271,7 +245,6 @@ font-size: 50px;
     margin-top: 50px;
 }
  
-
 .window {
     width: 100%;
     margin: 0 auto;
@@ -282,54 +255,59 @@ font-size: 50px;
     border-radius: 8px;
     margin-bottom: 30px;
     height: 500px;
-    
-
 }
+
+.container.window {
+        margin-top: -40px; 
+        padding-bottom: 15px;   
+    }
 
 .form-group {
     width: 100%;
     margin-top: 5px;
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
 .form-group input, 
 .form-group textarea {
-
     width: 100%;
     padding: 1px;
     font-size: 18px;
     border: 1px solid rgb(126, 125, 125);
-    margin-top: 2px;
-    
+    margin-top: 2px;   
 }
 
+.form-group input {
+    padding: 3px;
+}
 
 .form-group label {
     color: #fff;
 }
 
+#button-wrapper {
+        text-align: center;    
+    }
+
 button[type="submit"]{
-    width: 100%;
+    width: 30%;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     color: #fff;
     font-weight: 200;
     text-align: center;
     cursor: pointer;
     margin-top: 20px;
-    background-color: rgb(194, 4, 4);
-    
+    background-color: rgb(194, 4, 4);   
 }
  
 button[type="submit"]:hover {
-background-color: rgb(138, 128, 128);
+    background-color: rgb(138, 128, 128);
 }
 
-#success-response {
-    
+#success-response {   
     margin-bottom: 20px;
     padding: 10px;
     background: rgb(194, 4, 4);
@@ -337,109 +315,72 @@ background-color: rgb(138, 128, 128);
     font-size: 14px;
     display: none;
     border-radius: 8px;
-    color: white;
-    
+    color: white;    
 }
 
-#error-response {
-    
-    margin-bottom: 20px;
-    padding: 10px;
-    background: rgb(194, 4, 4);
-    text-align: center;
-    font-size: 14px;
-    display: none;
-    border-radius: 8px;
-    color: white;
-    
+#back-home {
+    color: #fff;
+    text-decoration: underline;
 }
 
-
-
-/*--Footer--*/
-
+/*-------Footer-----------------*/
 .footer {
-   
-  
     text-align: center;
     padding: 20px;
     flex-grow: 0;
-    
- 
 }
 
-
 .footer i {
-    color:rgb(194, 4, 4);
-       
+    color:rgb(194, 4, 4);      
 }
 
 .footer i:hover {
     color: rgb(138, 128, 128);
 }
 
-/*----Media queries for small devices---------*/
-
+/*-------Media queries for small devices------*/
+/*-------Home page----------------------------*/
 @media(max-width:600px) {
-#header-home-why {
-    margin-top: 5px;
-    margin-bottom: -20px;
-}
-}
-
-@media(max-width:600px) {
-.home-title {
-    margin-top: 10px;
-    margin-top: 0px;
-  
-}
+    #header-home-why {
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
 }
 
 @media(max-width:600px) {
-.contacts-subtitle {
-    margin-top: -10px;
-  
+    .home-title {
+        margin-top: 10px;
+        margin-top: 0px; 
+    }
 }
+
+/*-------Media queries for small devices------*/
+/*-------Contact page-------------------------*/
+@media(max-width:600px) {
+    .contacts-subtitle {
+        margin-top: -10px; 
+    }
+}
+
+/*-------Media queries for small devices------*/
+/*-------Info windows for google map----------*/
+@media(max-width:600px) {
+    .info-window {
+        width: 200px;
+        height: 300px;
+        text-align: center;
+        font-size: small;
+        background-color: #f2f5f7;
+    }
 }
 
 @media(max-width:600px) {
-.info-window {
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    font-size: small;
-    background-color: #f2f5f7;
-}
+    .info-window-image {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
 }
 
-@media(max-width:600px) {
 
-.info-window-image {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
 
-}
-}
-
-/*--Media queries for large devices--*/
-/*@media (min-width: 1024px) {
-#map {
-    height: 700px;
-    width: 900px;
-    
-}
-}*/
-
-/*@media (min-width: 1024px) {
-#map-size {
-    margin-bottom: 400px;
-  
-}
-}
-
-@media (min-width: 1024px) {
-#form-size {
-margin-bottom: 300px;
-}
-}*/
