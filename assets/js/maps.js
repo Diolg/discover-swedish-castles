@@ -22,7 +22,11 @@ function initMap() {
                 lng: 18.3051
             },
             image: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            info: '<div class="info-window"><img class="info-window-image" src="assets/images/tyreso-castle.jpg" alt="castle"><h6><strong>Tyreso castle</strong></h6><p>Marked with flag, because it is my favorite.</p><p>Built in 1630s currently it is a museum with beautiful parks and lakes.<p>Here you find: <ul><li>Museum</li><li>Hotel</li><li>SPA</li><li>Restaurant</li><li>Spaces for hiking</li><li>Natural swimming areas</li></ul></p><a href="https://www.nordiskamuseet.se/en/castles-manors/tyreso-palace" target="_blank">Check full information</a></div>'
+            info: `<div class="info-window"><img class="info-window-image" src="assets/images/tyreso-castle.jpg" alt="castle"><h6><strong>Tyreso castle</strong></h6>
+            <p>Marked with flag, because it is my favorite.</p>
+            <p>Built in 1630s currently it is a museum with beautiful parks and lakes.
+            <p>Here you find: <ul><li>Museum</li><li>Hotel</li><li>SPA</li><li>Restaurant</li><li>Spaces for hiking</li><li>Natural swimming areas</li></ul></p>
+            <a href="https://www.nordiskamuseet.se/en/castles-manors/tyreso-palace" target="_blank">Check full information</a></div>`
         },
 
         {

@@ -1,3 +1,4 @@
+
 //Set the EmailJS
     
  (function() {
@@ -9,16 +10,16 @@ function sendMail(contactForm) {
 
     emailjs.send("service_jgqb1x9","contact_form", 
     {
-        'message': contactForm.message.value,
-        'user_name': contactForm.name.value,
-        'user_email': contactForm.email.value,
+        "message": contactForm.message.value,
+        "user_name": contactForm.name.value,
+        "user_email": contactForm.email.value,
         
     })
     
 // Set function for success or error response
     .then(
         function(response) {
-            console.log('SUCCESS', response);
+            console.log("SUCCESS", response);
                        document.getElementById("success-response").style.display="block";
 
 //Set Time out for user to manage to read the success-message
@@ -26,19 +27,23 @@ function sendMail(contactForm) {
 
     },
         function(error) {
-            console.log('FAILED', error);
+            console.log("FAILED", error);
            document.getElementById("error-response").style.display="block";              
 });
 
 //Cleaning the form
 
-document.getElementById('contact-form').reset();
+document.getElementById("contact-form").reset();
 
 return false;
 } 
 
 
-    
+
+
+
+
+
 
 
 
