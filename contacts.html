@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My top-3 castles in Sweden</title>
     <!--Bootstrap 4.5.3-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-     <!--Favicon integration-->
-
-<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/favicon/site.webmanifest">
-<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <!--Favicon integration-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
-
 <body class="contacts">
-    <!--Navbar menu-->
+    <!--Collapsible navbar menu with a toggle button-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><strong>My<span class="nav-choice">Choice</span></strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,9 +42,7 @@
             </ul>
         </div>
     </nav>
-
     <!--Header with call to action to submit a message-->
-
     <div class="container-fluid container-form" id="form-size">
         <div class="row form-title">
             <div class="col-12">
@@ -56,42 +50,32 @@
                 <p><em><strong>Share your experience, tips or ask me a question.</strong></em></p>
             </div>
         </div>
-
         <!--Contact form-->
-
         <div class="container window">
             <div class="col-12" id="success-response">
                 <p>Hi! Your message has been sent successfully!
                     <br> I will respond in 2 hours! <br>
-                    Back to <a href="index.html">home page</a></p>
+                    Back to <a id="back-home" href="index.html">home page</a></p>
             </div>
-            <div class="col-12" id="error-response">
-                <p>Sorry, something went wrong...</p>
-            </div>
-
-
             <form id="contact-form" onsubmit="return sendMail(this);">
-
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                 </div>
-
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-
                 <div class="form-group">
                     <label for="message">Your message</label>
                     <textarea name="message" id="message" rows="3" required></textarea>
                 </div>
-
+                <div id="button-wrapper">
                 <button type="submit" id="contact-button">Submit</button>
+                </div>
             </form>
         </div>
     </div>
-
     <!--Footer with copyright and social meda-->
     <footer class="footer">
         <div class="container-fluid">
@@ -118,15 +102,12 @@
             </div>
         </div>
     </footer>
-    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/7c62474c66.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="assets/js/contacts.js"></script>
 </body>
 </html>
