@@ -119,13 +119,13 @@ The Google Map info windows contain images of recommended by the website owner c
 # Features
 - The website is responsive on all device sizes according to the initial goal.
 - Navigation bar  
-     1. Collapsible Navigation bar (Bootstrap 4.5.3) with a toggle button allows making navigation bar responsive and comfortable to use on all devices. 
-     2. The toggle button in mobile view makes it comfortable for users to navigate from smaller devices. The navbar is fixed-top, what allows users to easily navigate throughout the website. 
+1. Collapsible Navigation bar (Bootstrap 4.5.3) with a toggle button allows making navigation bar responsive and comfortable to use on all devices. 
+2. The toggle button in mobile view makes it comfortable for users to navigate from smaller devices. The navbar is fixed-top, what allows users to easily navigate throughout the website. 
 -	Internal links on the navigation bar (with hover effect):
-     1. Logo on the top-left side allows any time to revert back to “Home” page when clicked.
-     2. “Home”  - also allows to return to the Home page when clicked.
-     3. “Castles on the map” - when clicked, leads the user to the interactive Google Map .
-     4. “Contact me” - when clicked, leads the users to the filling form, where they can send their messages along with contact data.
+1. Logo on the top-left side allows any time to revert back to “Home” page when clicked.
+2. “Home”  - also allows to return to the Home page when clicked.
+3. “Castles on the map” - when clicked, leads the user to the interactive Google Map .
+4. “Contact me” - when clicked, leads the users to the filling form, where they can send their messages along with contact data.
 -   Footer is presented with a copyright and social media icons with hover effect and active links to the particular pages. Social media links lead to the owner’s personal social media pages, what makes users get aquainted with the owner’s lifestyle and preferences.
 
 -   HOME page
