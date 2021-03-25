@@ -6,7 +6,7 @@
 
 ## Website for history or cultural recreation lovers
 
-# The Project description
+# Project description
 
 “The best castles in Sweden: my choice” is a project that based on my own experience will allow tourists, newcomers, expats, aesthetes (lovers of history or cultural recreation), nature lovers to discover Swedish castles as perfect destinations for active/passive recreation. The website will help to: 
 -  Save time in searching for users new destinations for recreation in Sweden.  
@@ -213,7 +213,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - JavaScript
 
-There were several syntax errors while testing, which have been fixed.
+There were several syntax errors while testing, which have been fixed.  
+There was no major issues found:  
+
+![JShint](/assets/testing/jshint-form.png) 
+![JShint](/assets/testing/jshint-map.png)  
 
 # Manual testing of all elements and funcionality
 -	Navigation bar
