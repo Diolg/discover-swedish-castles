@@ -211,6 +211,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![W3C CSS Validator](/assets/testing/validation-css.png)
 
+- JavaScript
+
+There were several syntax errors while testing, which have been fixed.
+
 # Manual testing of all elements and funcionality
 -	Navigation bar
 
