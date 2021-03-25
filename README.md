@@ -1,6 +1,6 @@
 ![MS2_Screenshot](/assets/images/ms-project-screenshot.png)  
 
-# The best castles in Sweden: my choice
+# Discover Swedish castles: my choice
 
 [View the live project here](https://diolg.github.io/discover-swedish-castles/)
 
